@@ -2,7 +2,12 @@
     --primary-color: #0a1118;
     --primary-color-highlight: #233D54;
     --bs-body-bg: #FBF0F6;
+    --bs-success: #0a9396; /* Verde Floresta */
+    --bs-warning: #ee9b00; /* Areia */
+    --bs-light: #ffffff; /* Branco */
+    --bs-secondary: #94d2bd; /* Cinza Claro */
     --bs-body-font-family: 'Montserrat', sans-serif;
+    
   }
   
   html {scroll-behavior: smooth;}
@@ -210,6 +215,10 @@
   
   /*
   * Footer
+  */
+  .footer .border-highlight {
+    border-top: 1px solid var(--primary-color-highlight);
+  }
   */
   .footer .border-highlight {
     border-top: 1px solid var(--primary-color-highlight);
