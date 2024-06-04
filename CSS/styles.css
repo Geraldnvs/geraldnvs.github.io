@@ -209,16 +209,42 @@
   
     .steps__section-thumbnail {
       height: auto;
+      
     }
   }
-  
+  #chatbtn{
+    z-index: 0;
+  }
+
+  .chat{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: white solid 2px;
+  }
+  .chat_cont{
+    border-radius: 50%;
+    background-color: #0a9396;
+    border: #0a9396 solid 2px;
+    
+  }
+  .chat_name{
+    border: white solid 2px;
+    background-color: #0a9396;
+    border-radius: 5px;
+    height: 30px;
+  }
+  .name_border{
+    border: #0a9396 solid 2px;
+    
+    border-radius: 5px;
+  }
+  .chat_area{
+    width: 400px;
+  }
   
   /*
   * Footer
-  */
-  .footer .border-highlight {
-    border-top: 1px solid var(--primary-color-highlight);
-  }
   */
   .footer .border-highlight {
     border-top: 1px solid var(--primary-color-highlight);
